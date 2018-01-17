@@ -1,0 +1,13 @@
+#Question 1 - Level - Easy 
+
+#Write a Python program that takes radius as input from the user and Calculate the area of a Circle. 
+
+Radius = float(input("Please Enter Radius of the Circle : "))
+Area = 3.14* Radius * Radius 
+print("The area of the circle using 3.14 as pi value is : "+str(Area))
+
+#If you do not wish to use pi value as 3.14 you may import maths library and do the computation as mentioned below. 
+
+from math import pi
+Area_math = pi * Radius * Radius
+print("The area of the circle using pi from Maths package is : "+str(Area_math))
