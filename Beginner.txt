@@ -11,3 +11,14 @@ print("The area of the circle using 3.14 as pi value is : "+str(Area))
 from math import pi
 Area_math = pi * Radius * Radius
 print("The area of the circle using pi from Maths package is : "+str(Area_math))
+
+#Question 2 - Level - Easy 
+
+#Write a python program that takes the input value as N and compute N+NN+NNN+NNNN
+
+N = int(input("Enter the Value of N : "))
+N1 = int("%s" % N)
+N2 = int("%s%s" % (N,N))
+N3 = int("%s%s%s" % (N,N,N))
+N4 = int("%s%s%s%s" % (N,N,N,N))
+print(N1+N2+N3+N4)
